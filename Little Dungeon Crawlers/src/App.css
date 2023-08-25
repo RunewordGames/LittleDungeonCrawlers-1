@@ -1,0 +1,96 @@
+.app {
+  background-image: url("https://cdn.midjourney.com/bf7f0c44-922f-4d7e-bf73-b8396f00ebd8/0_3.png"); /* Replace with the actual image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+body,
+html {
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(38, 37, 37);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.header {
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Belisa Plumilla Manual";
+  src: url("belisa_plumilla.ttf");
+  font-size: 100px;
+}
+
+.subtitle {
+  font-size: 35px;
+  margin: -78px;
+  font-family: "Belisa Plumilla Manual";
+  src: url("belisa_plumilla.ttf");
+  color: black;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  min-height: 50vh;
+  max-width: 50vw;
+  padding: 1rem 0;
+  /* height: 60vh; */
+  text-align: center;
+}
+
+.body-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-right: -428px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 4rem;
+  padding: 1rem 0;
+}
+
+.icon {
+  font-size: 4rem;
+}
+
+.image-component {
+  text-align: center;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 50%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.coming-soon {
+  font-family: "Belisa Plumilla Manual";
+  font-size: 45px;
+}
