@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fbb1daa1.css",
+    "main.js": "/static/js/main.2ef99984.js",
+    "static/js/787.f17065d6.chunk.js": "/static/js/787.f17065d6.chunk.js",
+    "static/media/belisa_plumilla.ttf": "/static/media/belisa_plumilla.e8ab7a66d6f0d0a209ff.ttf",
+    "index.html": "/index.html",
+    "main.fbb1daa1.css.map": "/static/css/main.fbb1daa1.css.map",
+    "main.2ef99984.js.map": "/static/js/main.2ef99984.js.map",
+    "787.f17065d6.chunk.js.map": "/static/js/787.f17065d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbb1daa1.css",
+    "static/js/main.2ef99984.js"
+  ]
+}
