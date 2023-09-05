@@ -1,0 +1,35 @@
+[debug] [2023-08-28T19:31:30.457Z] ----------------------------------------------------------------------
+[debug] [2023-08-28T19:31:30.460Z] Command:       /usr/local/bin/node /Users/andrewporter/.npm-global/bin/firebase serve
+[debug] [2023-08-28T19:31:30.460Z] CLI Version:   12.5.2
+[debug] [2023-08-28T19:31:30.460Z] Platform:      darwin
+[debug] [2023-08-28T19:31:30.460Z] Node Version:  v20.3.0
+[debug] [2023-08-28T19:31:30.460Z] Time:          Mon Aug 28 2023 13:31:30 GMT-0600 (Mountain Daylight Time)
+[debug] [2023-08-28T19:31:30.461Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-28T19:31:30.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-28T19:31:30.552Z] > authorizing via signed-in user (goliath.arpg@gmail.com)
+[debug] [2023-08-28T19:31:30.552Z] [iam] checking project little-dungeon-crawlers for permissions ["firebase.projects.get"]
+[debug] [2023-08-28T19:31:30.553Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/little-dungeon-crawlers:testIamPermissions [none]
+[debug] [2023-08-28T19:31:30.554Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/little-dungeon-crawlers:testIamPermissions x-goog-quota-user=projects/little-dungeon-crawlers
+[debug] [2023-08-28T19:31:30.554Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/little-dungeon-crawlers:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-08-28T19:31:30.849Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/little-dungeon-crawlers:testIamPermissions 200
+[debug] [2023-08-28T19:31:30.849Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/little-dungeon-crawlers:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-08-28T19:31:30.850Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/little-dungeon-crawlers [none]
+[debug] [2023-08-28T19:31:31.217Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/little-dungeon-crawlers 200
+[debug] [2023-08-28T19:31:31.217Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/little-dungeon-crawlers {"projectId":"little-dungeon-crawlers","projectNumber":"722175882669","displayName":"Little Dungeon Crawlers","name":"projects/little-dungeon-crawlers","resources":{"hostingSite":"little-dungeon-crawlers"},"state":"ACTIVE","etag":"1_ad344184-b571-4e5d-9ac2-3507f20698c7"}
+[info] 
+[info] === Serving from '/Users/andrewporter/projects/LittleDungeonCrawlers/Little Dungeon Crawlers'...
+[info] 
+[debug] [2023-08-28T19:31:31.220Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/little-dungeon-crawlers/sites 
+[debug] [2023-08-28T19:31:31.674Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/little-dungeon-crawlers/sites 200
+[debug] [2023-08-28T19:31:31.674Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/little-dungeon-crawlers/sites {"sites":[{"name":"projects/little-dungeon-crawlers/sites/little-dungeon-crawlers","defaultUrl":"https://little-dungeon-crawlers.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-08-28T19:31:31.674Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/little-dungeon-crawlers/webApps/-/config [none]
+[debug] [2023-08-28T19:31:31.990Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/little-dungeon-crawlers/webApps/-/config 200
+[debug] [2023-08-28T19:31:31.991Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/little-dungeon-crawlers/webApps/-/config {"projectId":"little-dungeon-crawlers","storageBucket":"little-dungeon-crawlers.appspot.com","apiKey":"AIzaSyCnAba0wSeYtQYWDKi0dbWxzJJYkzq-nlE","authDomain":"little-dungeon-crawlers.firebaseapp.com","messagingSenderId":"722175882669"}
+[debug] [2023-08-28T19:31:32.015Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/little-dungeon-crawlers [none]
+[debug] [2023-08-28T19:31:32.197Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/little-dungeon-crawlers 200
+[debug] [2023-08-28T19:31:32.197Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/little-dungeon-crawlers {"projectId":"little-dungeon-crawlers","projectNumber":"722175882669","displayName":"Little Dungeon Crawlers","name":"projects/little-dungeon-crawlers","resources":{"hostingSite":"little-dungeon-crawlers"},"state":"ACTIVE","etag":"1_ad344184-b571-4e5d-9ac2-3507f20698c7"}
+[info] i  hosting[little-dungeon-crawlers]: Serving hosting files from: src {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1msrc\u001b[22m"}}
+[info] ✔  hosting[little-dungeon-crawlers]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [28/Aug/2023:19:31:36 +0000] "GET /%PUBLIC_URL%/manifest.json HTTP/1.1" 500 - "http://localhost:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [28/Aug/2023:19:31:36 +0000] \"GET /%PUBLIC_URL%/manifest.json HTTP/1.1\" 500 - \"http://localhost:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [28/Aug/2023:19:31:36 +0000] "GET /%PUBLIC_URL%/favicon.ico HTTP/1.1" 500 - "http://localhost:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [28/Aug/2023:19:31:36 +0000] \"GET /%PUBLIC_URL%/favicon.ico HTTP/1.1\" 500 - \"http://localhost:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36\""}}
