@@ -1,19 +1,18 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Header from "./Header";
 import Body from "./Body";
 import Footer from "./Footer";
 import ImageComponent from "./ImageComponent"; // Import the new component
 
-function App() {
-  return (
-    <div className="app">
-      <Header />
-      {/* <ImageComponent /> */}
-      <Body />
-      <Footer />
-    </div>
-  );
-}
-
-export default App;
+ReactDOM.render(
+  <div className="app">
+    <Header />
+    {/* <ImageComponent /> */}
+    <Body />
+    <Footer />
+  </div>,
+  document.getElementById("root")
+);
